@@ -30,7 +30,7 @@ position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%,-50%);
-width: 90%;
+width: 85%;
 height: 85%;
 /* background-color: hsl(212, 15%, 37%); */
 
@@ -45,4 +45,42 @@ p{
     color: hsl(217, 12%, 63%);
     width: 300px;
     font-size: 15px;
+}
+.numbers{
+color: hsl(217, 12%, 63%);
+margin-top: 25px;
+position: relative;
+}
+.number{
+padding: 10px 17px;
+border-radius: 50%;
+display: inline-block;
+background-color: hsl(213, 20%, 22%);
+
+}
+.one{
+
+float: left;
+
+}
+.two{
+
+float: left;
+margin-left: 20px;
+}
+.three{
+
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+.four{
+
+float: right;
+margin-right: 16px;
+}
+.five{
+
+float: right;
+/* margin-right: 20px; */
 }
