@@ -16,8 +16,12 @@ top: 50%;
 transform: translate(-50%,-50%);
 height: 350px;
 width: 330px;
-background-color: hsl(213, 19%, 18%);
+background-image: linear-gradient( hsl(213, 19%, 18%), hsl(216, 18%, 16%));
+
 border-radius: 15px;
+
+;
+
 }
 #star{
 width: 14px;
@@ -58,29 +62,104 @@ display: inline-block;
 background-color: hsl(213, 20%, 22%);
 
 }
-.one{
+.number:hover{
+
+background-color: hsl(217, 12%, 63%)!important;
+color: white;
+}
+
+
+#one{
 
 float: left;
 
 }
-.two{
+#two{
 
 float: left;
-margin-left: 20px;
+margin-left: 18px;
 }
-.three{
+#three{
 
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
 }
-.four{
+#four{
 
 float: right;
 margin-right: 16px;
 }
-.five{
+#five{
 
 float: right;
 /* margin-right: 20px; */
+}
+#submit{
+
+position: absolute;
+left: 50%;
+top: 85%;
+transform: translate(-50%, 0);
+padding: 10px 115px;
+border-radius: 24px;
+/* font-weight: 700; */
+color: white;
+background-color: hsl(25, 97%, 53%);
+letter-spacing: 2px;
+border:none;
+}
+#submit:hover{
+
+background-color:white;
+color: hsl(25, 97%, 53%);
+
+}
+
+#first{
+
+
+
+}
+#second{
+
+    display: none;
+
+}
+.thankyou{
+
+width: 140px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+#selected{
+
+color: rgb(255, 123, 0);
+font-size: 15px;
+position: absolute;
+left: 50%;
+top: 45%;
+transform: translate(-50%, 0);
+width: 160px;
+text-align: center;
+padding: 5px 5px;
+background-color: hsl(213, 20%, 22%);
+border-radius: 15px;
+}
+.TYh2{
+
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, 0);
+font-weight: 400;
+}
+.TYP{
+
+position: absolute;
+top: 73%;
+text-align: center;
+left: 50%;
+transform: translate(-50%, 0);
 }
