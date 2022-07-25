@@ -64,10 +64,25 @@ background-color: hsl(213, 20%, 22%);
 }
 .number:hover{
 
-background-color: hsl(217, 12%, 63%)!important;
+background-color: hsl(217, 12%, 63%);
 color: white;
 }
+.number:active, .number:focus{
 
+background-color: orange;
+color: white;
+
+}
+small{
+    color: gray;
+    font-size: 0.6rem;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
 
 #one{
 
@@ -116,11 +131,6 @@ color: hsl(25, 97%, 53%);
 
 }
 
-#first{
-
-
-
-}
 #second{
 
     display: none;
